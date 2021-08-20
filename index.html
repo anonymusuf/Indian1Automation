@@ -104,6 +104,93 @@
             width: 100%;
         }
     }
+     .why-harishinterior {
+        position: relative;
+        background-color: #fff;
+        padding: 32px 0px;
+        z-index: 9;
+    }
+
+    .why-harishinterior img {
+        width: 106px;
+        height: auto;
+    }
+
+    .all-partners {
+        text-align: center;
+        color: #222222;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .icons {
+        padding: 0 15%;
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px;
+    }
+
+    @media(min-width:768px) {
+        .why-harishinterior img {
+            width: 106px;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .why-harishinterior {
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .why-harishinterior .icons svg {
+            width: 106px;
+            height: 70px;
+        }
+
+        .icons {
+            padding: 0px;
+            justify-content: space-between;
+            margin: 0px;
+        }
+
+        .all-partners:before,
+        .all-partners:after {
+            display: none;
+        }
+
+        .all-partners {
+            font-size: 22.08px;
+            padding-bottom: 10px;
+        }
+
+        .why-harishinterior .icons {
+            flex-wrap: wrap;
+        }
+
+        .why-harishinterior .icons div {
+            flex: 0 50%;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .commonBFB_btn {
+            color: #FFFFFF !important;
+            font-weight: bold !important;
+            border: 1px solid transparent;
+            border-radius: 8px !important;
+            background-color: #E71C24 !important;
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+
+        @media(max-width:345px) {
+            .commonBFB_btn {
+                font-size: 12px;
+            }
+        }
+    }
 </style>
 
 <body>
@@ -403,6 +490,23 @@
                 </div>
             </div>
         </div>
+    <div class="home-interior-design_HIWhyharishinterior__TnhRL">
+        <div>
+
+            <div class="why-harishinterior">
+                <section class="container animate">
+                    <div class="all-partners">Why harish interior?</div>
+                    <div class="icons">
+                        <div><img src="/indian1Automation/customers.png" width="106px" height="112px"></div>
+                        <div><img src="/indian1Automation/enggg.png" width="106px" height="112px"></div>
+                        <div><img src="/indian1Automation/warranty.png" width="106px" height="112px"></div>
+                        <div><img src="/indian1Automation/10y.svg" width="106px" height="112px"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <button class="btn btn-success d-block m-auto mb-2">Know More</button>
+    </div>
         <div d-flex>
             <h3 class="blog-title my-4 mb-2 ms-3 text-warning">Blogs</h3>
             <div class="row">
